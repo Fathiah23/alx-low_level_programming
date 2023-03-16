@@ -1,8 +1,8 @@
 #include <stdio.h>
-/** 
+/**
  * main - The container for the statement block
  * printf - The print out function
- * return - returns the 0 to indicate end of program
+ * Return: returns the 0 to indicate end of program
  */
 int main(void)
 {
