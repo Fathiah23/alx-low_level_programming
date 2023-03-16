@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - contains no argument
- * puts function - to print out a text followed by a newline
- * return - print 0 to indicate program end
+ * main() - contains no argument
+ * puts() function - to print out a text followed by a newline
+ * return() - print 0 to indicate program end
  */
 int main(void)
 {
