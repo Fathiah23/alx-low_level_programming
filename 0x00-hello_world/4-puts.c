@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - contains no argument
  * puts function - to print out a text followed by a newline
