@@ -12,11 +12,11 @@ int main(void)
 	{
 		if (i == 9)
 			putchar(i + '0');
-		if (i != 9)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+			if (i != 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 	}
 	putchar('\n');
 	return (0);
