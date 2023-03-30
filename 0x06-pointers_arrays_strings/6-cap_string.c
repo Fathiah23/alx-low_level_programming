@@ -1,11 +1,13 @@
 #include "main.h"
 /**
  * cap_string - function to capitalize all string
- * @index : an emmpty pointer
+ * @str: an emmpty pointer
  * Return: value of str
  */
-char *cap_string(char *index)
+char *cap_string(char *str)
 {
+	int index = 0;
+
 	while (str[index])
 	{
 		while (!(str[index] >= 'a' && str[index] <= 'z'))
