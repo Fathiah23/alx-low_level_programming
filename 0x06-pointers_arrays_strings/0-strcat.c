@@ -6,7 +6,7 @@
  * @n: an integer
  * Return: return value od dest
  */
-char *_strcat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
 	int i;
 	int j;
@@ -17,7 +17,7 @@ char *_strcat(char *dest, char *src, int n)
 		i++;
 	}
 	j = 0;
-	while (j < n && src[j] != '\0')
+	while (src[j] != '\0')
 	{
 		dest[i] = src[j];
 		i++;
