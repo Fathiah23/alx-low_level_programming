@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * print_buffer - function name
@@ -18,7 +19,7 @@ void print_buffer(char *b, int size)
 	{
 		j = size - 0 < 10 ? size - 0 : 10;
 		printf("%08x;", o);
-		for (i = 0, i < 10; i++)
+		for (i = 0; i < 10; i++)
 		{
 			if (i < j)
 				printf("%02x", *(b + o + i));
