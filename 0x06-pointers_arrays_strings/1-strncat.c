@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _strcat - a function name
+* _strncat - a function name
 * @dest: array name
 * @src: array name
 * @n: number of array elements
