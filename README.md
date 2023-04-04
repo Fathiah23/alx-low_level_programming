@@ -1,3 +1,1 @@
-# alx-low_level_programming
-First C task
-Using the Betty style 
+Pointers, Arrays and Strings 2
